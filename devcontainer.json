@@ -1,0 +1,16 @@
+{
+    "name": "Go Sample",
+    "dockerFile": "Dockerfile",
+  
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+  
+    "workspaceFolder":"/projects/src/",
+
+    "forwardPorts": [3000],
+  
+    "postCreateCommand": "go version",
+  
+    "remoteUser": "Go-user"
+  }
